@@ -6,7 +6,7 @@ from aiogram.filters import CommandStart
 import asyncio
 import os
 
-bot = Bot(token='6719929278:AAGFu5Ei8IIp-mEmRIltL1GEAIs7K2zW7zo', parse_mode=ParseMode.HTML)
+bot = Bot(token='TOKEN', parse_mode=ParseMode.HTML)
 dp = Dispatcher()
 
 @dp.message(CommandStart())
